@@ -1,0 +1,247 @@
+body {
+  font-family: 'Plus Jakarta Sans', sans-serif !important;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+
+}
+
+.container {
+  flex: 1;
+}
+
+/* Navbar styling */
+.navbar {
+  height: 5rem;
+  background-color: white;
+}
+
+.fa-compass {
+  color: #fe424d;
+  font-size: 2rem;
+}
+
+.nav-link {
+  color: #222222 !important;
+}
+
+
+/* Footer Styling */
+
+.f-info-links a {
+  text-decoration: none;
+  color: #222222;
+
+}
+
+.f-info-links a:hover {
+  text-decoration: underline;
+}
+
+.f-info-links,
+.f-info-socials,
+.f-info-brand {
+  width: 100%;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+}
+
+.f-info-socials i {
+  font-size: 1.2rem;
+  margin-right: 1rem;
+
+}
+
+.f-info {
+  text-align: center;
+  height: 8rem;
+  background-color: #ebebeb;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: space-evenly;
+
+}
+
+/* styling for cards */
+
+.card {
+  border: none !important;
+  margin-bottom: 2rem;
+}
+
+.card-img-top {
+  border-radius: 1rem !important;
+  width: 100% !important;
+  object-fit: cover !important;
+}
+
+
+.card-body {
+  padding: 0 !important;
+}
+
+.card-text {
+  font-weight: 400 !important;
+}
+
+.listing-link {
+  text-decoration: none;
+}
+
+
+/* Card effects */
+
+.card-img-overlay {
+  opacity: 0;
+}
+
+.card-img-overlay:hover {
+  opacity: 0.2;
+  background-color: white;
+}
+
+/* New Listing */
+.add-btn {
+  background-color: #fe424d !important;
+  border: none !important;
+}
+
+.edit-btn {
+  background-color: #fe424d !important;
+  border: none !important;
+}
+
+/*Show Page*/
+.show-img {
+  height: 40vh;
+}
+
+.btns {
+  display: flex;
+}
+
+.show-card {
+  padding-right: 0;
+  padding-left: 0;
+}
+
+
+/* Map Styling */
+
+#map {
+  height: 450px;
+  width: 110vh;
+}
+
+
+/* filters styling*/
+
+
+#filters-container {
+  display: flex;
+  align-items: center;
+}
+
+#filters {
+  display: flex;
+  align-items: center;
+  overflow-x: auto;
+  scrollbar-width: none;
+  /* For Firefox */
+  -ms-overflow-style: none;
+  /* For Internet Explorer and Edge */
+}
+
+#filters::-webkit-scrollbar {
+  display: none;
+  /* For Chrome, Safari, and Opera */
+}
+
+.filter {
+  text-align: center;
+  margin-right: 2rem;
+  margin-top: 2rem;
+  opacity: 0.7;
+  flex: 0 0 auto;
+}
+
+.filter:hover {
+  opacity: 1;
+  cursor: pointer;
+  text-decoration: underline;
+  text-decoration-thickness: 1.5px;
+  text-underline-offset: 4px;
+
+}
+
+.filter p {
+  font-size: 0.8rem;
+}
+
+.taxInfo {
+  display:none;
+  /* Changed from none to inline-block */
+  color: black;
+  border: 1px solid black;
+  border-radius: 1rem;
+  padding: 0.1rem ;
+  margin-top:0.5rem;
+  /* Added padding to ensure better spacing */
+
+  /* Prevents the text from wrapping */
+}
+
+.tax-toggle {
+  border: 2px solid black;
+  border-radius: 1rem;
+  height: 3rem;
+  width: 25rem;
+  padding: 1rem 0 1rem 0;
+  margin-top: 0.75rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* Centers the content horizontally */
+}
+
+
+
+.arrow-button {
+  width: 40px;
+  height: 40px;
+  padding: 1rem 1.25rem 1.25rem 1.25rem;
+  cursor: pointer;
+  background-color: #ffffff;
+  border: 2px solid #433e3e;
+  border-radius: 50%;
+  font-size: 24px;
+  flex: 0 0 auto;
+  margin: 1rem 2rem 0 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: background-color 0.3s, border-color 0.3s, transform 0.3s;
+}
+
+.arrow-button:hover {
+  background-color: #fe424d;
+  border-color: #aaaaaa;
+  transform: scale(1.1);
+}
+
+.arrow-button:focus {
+  outline: none;
+  box-shadow: 0 0 0 4px rgba(0, 123, 255, 0.25);
+}
+
+.arrow-button i {
+  font-size: 40px;
+  color: #333333;
+  transition: color 0.3s;
+}
+
+.arrow-button:hover i {
+  color: #000000;
+}
