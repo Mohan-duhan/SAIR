@@ -135,7 +135,8 @@ Encountered challenges, especially with data handling, but implemented efficient
 
 Mohan Singh \
 Email: duhanmohan9@gmail.com \
-LinkedIn : https://www.linkedin.com/in/duhanmohan/
+LinkedIn : <a href="https://www.linkedin.com/in/duhanmohan/">duhanmohan</a>
+
 
 ---
 
